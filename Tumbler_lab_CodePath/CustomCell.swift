@@ -30,13 +30,13 @@ class CustomCell: UITableViewCell {
     }
     
     func setupImageView() {
-        movieImageView.clipsToBounds = true
         movieImageView.layer.cornerRadius = 5
+        movieImageView.clipsToBounds                                                                            = true
         movieImageView.translatesAutoresizingMaskIntoConstraints                                                = false
         movieImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive                                = true
-        movieImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15).isActive                                = true
-        movieImageView.heightAnchor.constraint(equalToConstant: 80).isActive                                   = true
-        movieImageView.widthAnchor.constraint(equalTo: movieImageView.heightAnchor).isActive  = true
+        movieImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15).isActive                  = true
+        movieImageView.heightAnchor.constraint(equalToConstant: 80).isActive                                    = true
+        movieImageView.widthAnchor.constraint(equalTo: movieImageView.heightAnchor).isActive                    = true
     }
     
     func setupTitleLable() {
