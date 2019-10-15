@@ -27,3 +27,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
+
+A challenge I encountered while building this app was creating the launch screen. I decided to not use main.storyboard and deleted it along with launchscreen. I needed to create a new LaunchScreen.storyboard but by default it is names "Launch Screen" with the space. In info.plist there is a key "Launch screen interface file base name" that holds a value of "LaunchScreen" that needed to be changed to "Launch Screen".
+
+Another challenge was using AutoLayout programmatically.
