@@ -1,0 +1,6 @@
+framework module Pods_Tumbler_lab_CodePathTests {
+  umbrella header "Pods-Tumbler_lab_CodePathTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

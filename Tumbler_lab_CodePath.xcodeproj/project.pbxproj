@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF84FB103A1D5A6BBD5042D /* Pods_Tumbler_lab_CodePathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C25588F0FA5D00FB1F0A4C /* Pods_Tumbler_lab_CodePathTests.framework */; };
+		7829BDF423553C2B00482B5E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829BDF323553C2B00482B5E /* CustomCell.swift */; };
+		7829BDF82355698500482B5E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829BDF72355698500482B5E /* Extensions.swift */; };
+		783D16192352536C00EA5C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D16182352536C00EA5C04 /* AppDelegate.swift */; };
+		783D161B2352536C00EA5C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D161A2352536C00EA5C04 /* SceneDelegate.swift */; };
+		783D161D2352536C00EA5C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D161C2352536C00EA5C04 /* ViewController.swift */; };
+		783D16232352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 783D16212352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodeld */; };
+		783D16252352536F00EA5C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783D16242352536F00EA5C04 /* Assets.xcassets */; };
+		783D16332352536F00EA5C04 /* Tumbler_lab_CodePathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D16322352536F00EA5C04 /* Tumbler_lab_CodePathTests.swift */; };
+		783D163E2352536F00EA5C04 /* Tumbler_lab_CodePathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D163D2352536F00EA5C04 /* Tumbler_lab_CodePathUITests.swift */; };
+		92120C9FD517180FBEDD2D67 /* Pods_Tumbler_lab_CodePathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6727E3915C23E33756C25E9B /* Pods_Tumbler_lab_CodePathUITests.framework */; };
+		E7F6F177D111CF36743D3B03 /* Pods_Tumbler_lab_CodePath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1914079C4AB8066712ABC009 /* Pods_Tumbler_lab_CodePath.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		783D162F2352536F00EA5C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783D160D2352536C00EA5C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783D16142352536C00EA5C04;
+			remoteInfo = Tumbler_lab_CodePath;
+		};
+		783D163A2352536F00EA5C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783D160D2352536C00EA5C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783D16142352536C00EA5C04;
+			remoteInfo = Tumbler_lab_CodePath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A57115EECD757D83CD367B6 /* Pods-Tumbler_lab_CodePathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler_lab_CodePathTests.debug.xcconfig"; path = "Target Support Files/Pods-Tumbler_lab_CodePathTests/Pods-Tumbler_lab_CodePathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1914079C4AB8066712ABC009 /* Pods_Tumbler_lab_CodePath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbler_lab_CodePath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6A8D1EE8B9352479188ED3 /* Pods-Tumbler_lab_CodePath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler_lab_CodePath.debug.xcconfig"; path = "Target Support Files/Pods-Tumbler_lab_CodePath/Pods-Tumbler_lab_CodePath.debug.xcconfig"; sourceTree = "<group>"; };
+		2713B92932BCEC87872F7D6A /* Pods-Tumbler_lab_CodePathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler_lab_CodePathTests.release.xcconfig"; path = "Target Support Files/Pods-Tumbler_lab_CodePathTests/Pods-Tumbler_lab_CodePathTests.release.xcconfig"; sourceTree = "<group>"; };
+		529B13CBE4F755BF3C7BED80 /* Pods-Tumbler_lab_CodePath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler_lab_CodePath.release.xcconfig"; path = "Target Support Files/Pods-Tumbler_lab_CodePath/Pods-Tumbler_lab_CodePath.release.xcconfig"; sourceTree = "<group>"; };
+		6727E3915C23E33756C25E9B /* Pods_Tumbler_lab_CodePathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbler_lab_CodePathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7829BDF323553C2B00482B5E /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		7829BDF72355698500482B5E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		783D16152352536C00EA5C04 /* Tumbler_lab_CodePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbler_lab_CodePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783D16182352536C00EA5C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		783D161A2352536C00EA5C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		783D161C2352536C00EA5C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		783D16222352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tumbler_lab_CodePath.xcdatamodel; sourceTree = "<group>"; };
+		783D16242352536F00EA5C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		783D16292352536F00EA5C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783D162E2352536F00EA5C04 /* Tumbler_lab_CodePathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tumbler_lab_CodePathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783D16322352536F00EA5C04 /* Tumbler_lab_CodePathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumbler_lab_CodePathTests.swift; sourceTree = "<group>"; };
+		783D16342352536F00EA5C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783D16392352536F00EA5C04 /* Tumbler_lab_CodePathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tumbler_lab_CodePathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783D163D2352536F00EA5C04 /* Tumbler_lab_CodePathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumbler_lab_CodePathUITests.swift; sourceTree = "<group>"; };
+		783D163F2352536F00EA5C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CEC57627AF05233B982DCD /* Pods-Tumbler_lab_CodePathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler_lab_CodePathUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tumbler_lab_CodePathUITests/Pods-Tumbler_lab_CodePathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9C25588F0FA5D00FB1F0A4C /* Pods_Tumbler_lab_CodePathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbler_lab_CodePathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF20EF98A664E3D8330622E9 /* Pods-Tumbler_lab_CodePathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbler_lab_CodePathUITests.release.xcconfig"; path = "Target Support Files/Pods-Tumbler_lab_CodePathUITests/Pods-Tumbler_lab_CodePathUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783D16122352536C00EA5C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F6F177D111CF36743D3B03 /* Pods_Tumbler_lab_CodePath.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D162B2352536F00EA5C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF84FB103A1D5A6BBD5042D /* Pods_Tumbler_lab_CodePathTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D16362352536F00EA5C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92120C9FD517180FBEDD2D67 /* Pods_Tumbler_lab_CodePathUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D7F3F4FCCA2140172B4885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A8D1EE8B9352479188ED3 /* Pods-Tumbler_lab_CodePath.debug.xcconfig */,
+				529B13CBE4F755BF3C7BED80 /* Pods-Tumbler_lab_CodePath.release.xcconfig */,
+				0A57115EECD757D83CD367B6 /* Pods-Tumbler_lab_CodePathTests.debug.xcconfig */,
+				2713B92932BCEC87872F7D6A /* Pods-Tumbler_lab_CodePathTests.release.xcconfig */,
+				90CEC57627AF05233B982DCD /* Pods-Tumbler_lab_CodePathUITests.debug.xcconfig */,
+				EF20EF98A664E3D8330622E9 /* Pods-Tumbler_lab_CodePathUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7829BDF62355695E00482B5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7829BDF72355698500482B5E /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		783D160C2352536C00EA5C04 = {
+			isa = PBXGroup;
+			children = (
+				783D16172352536C00EA5C04 /* Tumbler_lab_CodePath */,
+				783D16312352536F00EA5C04 /* Tumbler_lab_CodePathTests */,
+				783D163C2352536F00EA5C04 /* Tumbler_lab_CodePathUITests */,
+				783D16162352536C00EA5C04 /* Products */,
+				63D7F3F4FCCA2140172B4885 /* Pods */,
+				EFFD24002FF3C4DE1B37CF1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		783D16162352536C00EA5C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783D16152352536C00EA5C04 /* Tumbler_lab_CodePath.app */,
+				783D162E2352536F00EA5C04 /* Tumbler_lab_CodePathTests.xctest */,
+				783D16392352536F00EA5C04 /* Tumbler_lab_CodePathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783D16172352536C00EA5C04 /* Tumbler_lab_CodePath */ = {
+			isa = PBXGroup;
+			children = (
+				7829BDF62355695E00482B5E /* Extensions */,
+				783D16182352536C00EA5C04 /* AppDelegate.swift */,
+				783D161A2352536C00EA5C04 /* SceneDelegate.swift */,
+				783D161C2352536C00EA5C04 /* ViewController.swift */,
+				783D16242352536F00EA5C04 /* Assets.xcassets */,
+				783D16292352536F00EA5C04 /* Info.plist */,
+				783D16212352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodeld */,
+				7829BDF323553C2B00482B5E /* CustomCell.swift */,
+			);
+			path = Tumbler_lab_CodePath;
+			sourceTree = "<group>";
+		};
+		783D16312352536F00EA5C04 /* Tumbler_lab_CodePathTests */ = {
+			isa = PBXGroup;
+			children = (
+				783D16322352536F00EA5C04 /* Tumbler_lab_CodePathTests.swift */,
+				783D16342352536F00EA5C04 /* Info.plist */,
+			);
+			path = Tumbler_lab_CodePathTests;
+			sourceTree = "<group>";
+		};
+		783D163C2352536F00EA5C04 /* Tumbler_lab_CodePathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				783D163D2352536F00EA5C04 /* Tumbler_lab_CodePathUITests.swift */,
+				783D163F2352536F00EA5C04 /* Info.plist */,
+			);
+			path = Tumbler_lab_CodePathUITests;
+			sourceTree = "<group>";
+		};
+		EFFD24002FF3C4DE1B37CF1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1914079C4AB8066712ABC009 /* Pods_Tumbler_lab_CodePath.framework */,
+				E9C25588F0FA5D00FB1F0A4C /* Pods_Tumbler_lab_CodePathTests.framework */,
+				6727E3915C23E33756C25E9B /* Pods_Tumbler_lab_CodePathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783D16142352536C00EA5C04 /* Tumbler_lab_CodePath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783D16422352536F00EA5C04 /* Build configuration list for PBXNativeTarget "Tumbler_lab_CodePath" */;
+			buildPhases = (
+				B87B02CCC8BD0C3B47E29E67 /* [CP] Check Pods Manifest.lock */,
+				783D16112352536C00EA5C04 /* Sources */,
+				783D16122352536C00EA5C04 /* Frameworks */,
+				783D16132352536C00EA5C04 /* Resources */,
+				9018D7C7AF591E5036872E70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tumbler_lab_CodePath;
+			productName = Tumbler_lab_CodePath;
+			productReference = 783D16152352536C00EA5C04 /* Tumbler_lab_CodePath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		783D162D2352536F00EA5C04 /* Tumbler_lab_CodePathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783D16452352536F00EA5C04 /* Build configuration list for PBXNativeTarget "Tumbler_lab_CodePathTests" */;
+			buildPhases = (
+				5DF0A8854433449E5C3920D0 /* [CP] Check Pods Manifest.lock */,
+				783D162A2352536F00EA5C04 /* Sources */,
+				783D162B2352536F00EA5C04 /* Frameworks */,
+				783D162C2352536F00EA5C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783D16302352536F00EA5C04 /* PBXTargetDependency */,
+			);
+			name = Tumbler_lab_CodePathTests;
+			productName = Tumbler_lab_CodePathTests;
+			productReference = 783D162E2352536F00EA5C04 /* Tumbler_lab_CodePathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		783D16382352536F00EA5C04 /* Tumbler_lab_CodePathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783D16482352536F00EA5C04 /* Build configuration list for PBXNativeTarget "Tumbler_lab_CodePathUITests" */;
+			buildPhases = (
+				6DB5B768F132101C11259BBA /* [CP] Check Pods Manifest.lock */,
+				783D16352352536F00EA5C04 /* Sources */,
+				783D16362352536F00EA5C04 /* Frameworks */,
+				783D16372352536F00EA5C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783D163B2352536F00EA5C04 /* PBXTargetDependency */,
+			);
+			name = Tumbler_lab_CodePathUITests;
+			productName = Tumbler_lab_CodePathUITests;
+			productReference = 783D16392352536F00EA5C04 /* Tumbler_lab_CodePathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783D160D2352536C00EA5C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Paul Ancajima";
+				TargetAttributes = {
+					783D16142352536C00EA5C04 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					783D162D2352536F00EA5C04 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 783D16142352536C00EA5C04;
+					};
+					783D16382352536F00EA5C04 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 783D16142352536C00EA5C04;
+					};
+				};
+			};
+			buildConfigurationList = 783D16102352536C00EA5C04 /* Build configuration list for PBXProject "Tumbler_lab_CodePath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 783D160C2352536C00EA5C04;
+			productRefGroup = 783D16162352536C00EA5C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783D16142352536C00EA5C04 /* Tumbler_lab_CodePath */,
+				783D162D2352536F00EA5C04 /* Tumbler_lab_CodePathTests */,
+				783D16382352536F00EA5C04 /* Tumbler_lab_CodePathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783D16132352536C00EA5C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783D16252352536F00EA5C04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D162C2352536F00EA5C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D16372352536F00EA5C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DF0A8854433449E5C3920D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbler_lab_CodePathTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB5B768F132101C11259BBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbler_lab_CodePathUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9018D7C7AF591E5036872E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tumbler_lab_CodePath/Pods-Tumbler_lab_CodePath-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tumbler_lab_CodePath/Pods-Tumbler_lab_CodePath-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tumbler_lab_CodePath/Pods-Tumbler_lab_CodePath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87B02CCC8BD0C3B47E29E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbler_lab_CodePath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783D16112352536C00EA5C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783D161D2352536C00EA5C04 /* ViewController.swift in Sources */,
+				783D16192352536C00EA5C04 /* AppDelegate.swift in Sources */,
+				7829BDF423553C2B00482B5E /* CustomCell.swift in Sources */,
+				783D161B2352536C00EA5C04 /* SceneDelegate.swift in Sources */,
+				783D16232352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodeld in Sources */,
+				7829BDF82355698500482B5E /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D162A2352536F00EA5C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783D16332352536F00EA5C04 /* Tumbler_lab_CodePathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D16352352536F00EA5C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783D163E2352536F00EA5C04 /* Tumbler_lab_CodePathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783D16302352536F00EA5C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783D16142352536C00EA5C04 /* Tumbler_lab_CodePath */;
+			targetProxy = 783D162F2352536F00EA5C04 /* PBXContainerItemProxy */;
+		};
+		783D163B2352536F00EA5C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783D16142352536C00EA5C04 /* Tumbler_lab_CodePath */;
+			targetProxy = 783D163A2352536F00EA5C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		783D16402352536F00EA5C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		783D16412352536F00EA5C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783D16432352536F00EA5C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6A8D1EE8B9352479188ED3 /* Pods-Tumbler_lab_CodePath.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z4E9D6W3;
+				INFOPLIST_FILE = Tumbler_lab_CodePath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mail.sfsu.pancajima.student.Tumbler-lab-CodePath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783D16442352536F00EA5C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529B13CBE4F755BF3C7BED80 /* Pods-Tumbler_lab_CodePath.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z4E9D6W3;
+				INFOPLIST_FILE = Tumbler_lab_CodePath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mail.sfsu.pancajima.student.Tumbler-lab-CodePath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		783D16462352536F00EA5C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A57115EECD757D83CD367B6 /* Pods-Tumbler_lab_CodePathTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z4E9D6W3;
+				INFOPLIST_FILE = Tumbler_lab_CodePathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mail.sfsu.pancajima.student.Tumbler-lab-CodePathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbler_lab_CodePath.app/Tumbler_lab_CodePath";
+			};
+			name = Debug;
+		};
+		783D16472352536F00EA5C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2713B92932BCEC87872F7D6A /* Pods-Tumbler_lab_CodePathTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z4E9D6W3;
+				INFOPLIST_FILE = Tumbler_lab_CodePathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mail.sfsu.pancajima.student.Tumbler-lab-CodePathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbler_lab_CodePath.app/Tumbler_lab_CodePath";
+			};
+			name = Release;
+		};
+		783D16492352536F00EA5C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CEC57627AF05233B982DCD /* Pods-Tumbler_lab_CodePathUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z4E9D6W3;
+				INFOPLIST_FILE = Tumbler_lab_CodePathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mail.sfsu.pancajima.student.Tumbler-lab-CodePathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tumbler_lab_CodePath;
+			};
+			name = Debug;
+		};
+		783D164A2352536F00EA5C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF20EF98A664E3D8330622E9 /* Pods-Tumbler_lab_CodePathUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z4E9D6W3;
+				INFOPLIST_FILE = Tumbler_lab_CodePathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mail.sfsu.pancajima.student.Tumbler-lab-CodePathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tumbler_lab_CodePath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783D16102352536C00EA5C04 /* Build configuration list for PBXProject "Tumbler_lab_CodePath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783D16402352536F00EA5C04 /* Debug */,
+				783D16412352536F00EA5C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783D16422352536F00EA5C04 /* Build configuration list for PBXNativeTarget "Tumbler_lab_CodePath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783D16432352536F00EA5C04 /* Debug */,
+				783D16442352536F00EA5C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783D16452352536F00EA5C04 /* Build configuration list for PBXNativeTarget "Tumbler_lab_CodePathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783D16462352536F00EA5C04 /* Debug */,
+				783D16472352536F00EA5C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783D16482352536F00EA5C04 /* Build configuration list for PBXNativeTarget "Tumbler_lab_CodePathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783D16492352536F00EA5C04 /* Debug */,
+				783D164A2352536F00EA5C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		783D16212352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				783D16222352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodel */,
+			);
+			currentVersion = 783D16222352536C00EA5C04 /* Tumbler_lab_CodePath.xcdatamodel */;
+			path = Tumbler_lab_CodePath.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 783D160D2352536C00EA5C04 /* Project object */;
+}
