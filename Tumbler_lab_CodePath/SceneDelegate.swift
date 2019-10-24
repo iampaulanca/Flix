@@ -20,9 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        let navigationController = UINavigationController(rootViewController: ViewController())
-
-        window?.rootViewController = navigationController
+        let mainVC = MoviesTabBarController()
+//        let navigationController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = mainVC
         window?.makeKeyAndVisible()
     }
 

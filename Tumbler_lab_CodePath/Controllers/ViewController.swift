@@ -36,7 +36,6 @@ class ViewController: UIViewController {
     
     
     private func retrieveMovies(){
-        
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
@@ -55,7 +54,6 @@ class ViewController: UIViewController {
             }
         }
         task.resume()
-        
     }
 }
 
@@ -73,11 +71,49 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let baseUrl = "https://image.tmdb.org/t/p/w500"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
-        
         cell.movieImageView.af_setImage(withURL: posterUrl!)
+        
         cell.movieDetail.text = (movie["overview"] as! String)
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        // current movie
+        let movie = movies[indexPath.row]
+        
+        //base url
+        let baseUrl = "https://image.tmdb.org/t/p/w500"
+        
+        // get poster
+        let posterPath = movie["poster_path"] as! String
+        guard let posterUrl = URL(string: baseUrl + posterPath) else { return }
+        
+        // get backdrop
+        let backDropPath = movie["backdrop_path"] as! String
+        guard let backDropUrl = URL(string: baseUrl + backDropPath) else { return }
+        
+        // get title
+        let title = movie["original_title"] as! String
+        
+        // get release date
+        let releaseDate = movie["release_date"] as! String
+        
+        // get overview
+        let overview = movie["overview"] as! String
+        
+        
+        let vc = MovieDetailsViewController()
+        vc.movieImageView.af_setImage(withURL: posterUrl)
+        vc.backdropView.af_setImage(withURL: backDropUrl)
+        vc.titleView.text = title
+        vc.releaseDateView.text = releaseDate
+        vc.overviewView.text = overview
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
     
 }
