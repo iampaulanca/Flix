@@ -20,7 +20,8 @@ class MoviesTabBarController: UITabBarController {
         
         let vc = UINavigationController(rootViewController: ViewController())
         vc.tabBarItem.title = "Home"
-        let moviePostersVC = UINavigationController(rootViewController: PostersCollectionViewController())
+        let layout = UICollectionViewFlowLayout()
+        let moviePostersVC = UINavigationController(rootViewController: PostersCollectionViewController(collectionViewLayout: layout))
         moviePostersVC.tabBarItem.title = "Posters"
         viewControllers = [vc, moviePostersVC]
     }

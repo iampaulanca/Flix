@@ -64,15 +64,22 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // set cell
         let cell = tableView.dequeueReusableCell(withIdentifier: Cells.customCell) as! CustomCell
+        
+        // set movie
         let movie = movies[indexPath.row]
+        
+        // set movie title
         cell.movieTitleLabel.text = (movie["title"] as! String)
         
+        // set movie poster
         let baseUrl = "https://image.tmdb.org/t/p/w500"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
         cell.movieImageView.af_setImage(withURL: posterUrl!)
         
+        // set movie detail
         cell.movieDetail.text = (movie["overview"] as! String)
         
         return cell
@@ -104,6 +111,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let overview = movie["overview"] as! String
         
         
+        // set MovieDetailsVC
         let vc = MovieDetailsViewController()
         vc.movieImageView.af_setImage(withURL: posterUrl)
         vc.backdropView.af_setImage(withURL: backDropUrl)
@@ -111,6 +119,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         vc.releaseDateView.text = releaseDate
         vc.overviewView.text = overview
         
+        // push vc
         self.navigationController?.pushViewController(vc, animated: true)
         
     }
